@@ -1,5 +1,4 @@
-var today = new Date();
-var hourNow = today.getHours();
+var hourNow = promet("enter the hour");
 var greeting;
 if (hourNow > 18) {
  greeting = 'Good evening, Class!';
